@@ -10,8 +10,8 @@ const Header = () => {
         <div className={styles.flexContainer}>
           <Logo boxOn />
           <Nav />
-      </div>
-    </Container>
+        </div>
+      </Container>
     </header>
   )
 }
