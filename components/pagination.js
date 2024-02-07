@@ -25,7 +25,7 @@ const Pagination = ({
         </li>
       )}
       {nextText && nextUrl && (
-        <li className={styles.iconText}>
+        <li className={styles.next}>
           <Link href={nextUrl}>
             <span className={styles.iconText}>
               <span>{nextText}</span>
